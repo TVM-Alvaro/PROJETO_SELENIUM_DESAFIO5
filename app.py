@@ -56,6 +56,7 @@ sleep(1)
 checkbox_motos = driver.find_elements(By.XPATH,"//input[@name='motos']")
 for moto in checkbox_motos:
     moto.click()
+    sleep(0.5)
 sleep(1)
 #marcar todos checkbox motos
 
